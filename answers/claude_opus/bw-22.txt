@@ -1,0 +1,11 @@
+PLAN:
+1. pickup(e)
+2. stack(e, f)
+3. pickup(d)
+4. stack(d, e)
+5. pickup(c)
+6. stack(c, d)
+7. pickup(b)
+8. stack(b, c)
+9. pickup(a)
+10. stack(a, b)

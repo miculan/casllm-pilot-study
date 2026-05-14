@@ -1,0 +1,41 @@
+Goal stack (bottom to top): h, g, f, e, d, c, b, a.
+
+Initial: a-b, c-d, e-f, g-h on table.
+
+Need: h on table (already), g on h, f on g, e on f, d on e, c on d, b on c, a on b.
+
+Plan:
+- Unstack b from a, putdown b.
+- Unstack d from c, putdown d.
+- Unstack f from e, putdown f.
+- h is on g currently. Need g on h. So unstack h from g, putdown h. Then pickup g, stack g on h.
+- Pickup f, stack f on g.
+- Pickup e, stack e on f.
+- Pickup d, stack d on e.
+- Pickup c, stack c on d.
+- Pickup b, stack b on c.
+- Pickup a, stack a on b.
+
+PLAN:
+1. unstack(b, a)
+2. putdown(b)
+3. unstack(d, c)
+4. putdown(d)
+5. unstack(f, e)
+6. putdown(f)
+7. unstack(h, g)
+8. putdown(h)
+9. pickup(g)
+10. stack(g, h)
+11. pickup(f)
+12. stack(f, g)
+13. pickup(e)
+14. stack(e, f)
+15. pickup(d)
+16. stack(d, e)
+17. pickup(c)
+18. stack(c, d)
+19. pickup(b)
+20. stack(b, c)
+21. pickup(a)
+22. stack(a, b)

@@ -1,0 +1,7 @@
+{
+  "model": "gpt-4o-mini",
+  "finish_reason": "stop",
+  "input_tokens": 359,
+  "output_tokens": 59,
+  "elapsed_sec": 21.36
+}

@@ -1,0 +1,19 @@
+Looking at the initial and goal states:
+
+Initial: a(table), b(table), c on b, d(table), e on d
+Goal: a(table), b on a, c on b, d(table), e on d
+
+e is already on d ✓, c needs to stay on b, but b needs to move onto a.
+
+So I need to:
+1. Unstack c from b
+2. Pickup b and stack on a
+3. Stack c back on b
+
+PLAN:
+1. unstack(c, b)
+2. putdown(c)
+3. pickup(b)
+4. stack(b, a)
+5. pickup(c)
+6. stack(c, b)

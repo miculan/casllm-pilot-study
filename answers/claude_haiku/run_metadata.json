@@ -1,0 +1,283 @@
+{
+  "family": "haiku",
+  "model": "claude-haiku-4-5-20251001",
+  "system_prompt": "You are a planning agent for the Blocksworld domain. When given a task description, output a single plan as a numbered list of primitive actions, using exactly the format requested in the task. Do not output explanations, reasoning, or any text other than the plan.",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "n_tasks": 30,
+  "n_ok": 30,
+  "total_input_tokens": 12884,
+  "total_output_tokens": 3016,
+  "results": [
+    {
+      "task_id": "bw-01",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 376,
+      "output_tokens": 74,
+      "elapsed_sec": 1.1
+    },
+    {
+      "task_id": "bw-02",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 394,
+      "output_tokens": 53,
+      "elapsed_sec": 1.65
+    },
+    {
+      "task_id": "bw-03",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 383,
+      "output_tokens": 40,
+      "elapsed_sec": 1.17
+    },
+    {
+      "task_id": "bw-04",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 372,
+      "output_tokens": 42,
+      "elapsed_sec": 1.18
+    },
+    {
+      "task_id": "bw-05",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 385,
+      "output_tokens": 56,
+      "elapsed_sec": 1.04
+    },
+    {
+      "task_id": "bw-06",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 376,
+      "output_tokens": 74,
+      "elapsed_sec": 1.44
+    },
+    {
+      "task_id": "bw-07",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 385,
+      "output_tokens": 56,
+      "elapsed_sec": 1.06
+    },
+    {
+      "task_id": "bw-08",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 385,
+      "output_tokens": 56,
+      "elapsed_sec": 1.06
+    },
+    {
+      "task_id": "bw-09",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 383,
+      "output_tokens": 40,
+      "elapsed_sec": 0.96
+    },
+    {
+      "task_id": "bw-10",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 376,
+      "output_tokens": 59,
+      "elapsed_sec": 1.13
+    },
+    {
+      "task_id": "bw-11",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 409,
+      "output_tokens": 91,
+      "elapsed_sec": 1.74
+    },
+    {
+      "task_id": "bw-12",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 400,
+      "output_tokens": 78,
+      "elapsed_sec": 1.09
+    },
+    {
+      "task_id": "bw-13",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 427,
+      "output_tokens": 47,
+      "elapsed_sec": 0.84
+    },
+    {
+      "task_id": "bw-14",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 407,
+      "output_tokens": 74,
+      "elapsed_sec": 1.41
+    },
+    {
+      "task_id": "bw-15",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 409,
+      "output_tokens": 75,
+      "elapsed_sec": 1.6
+    },
+    {
+      "task_id": "bw-16",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 433,
+      "output_tokens": 156,
+      "elapsed_sec": 1.39
+    },
+    {
+      "task_id": "bw-17",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 440,
+      "output_tokens": 56,
+      "elapsed_sec": 1.04
+    },
+    {
+      "task_id": "bw-18",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 451,
+      "output_tokens": 200,
+      "elapsed_sec": 1.58
+    },
+    {
+      "task_id": "bw-19",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 431,
+      "output_tokens": 125,
+      "elapsed_sec": 1.33
+    },
+    {
+      "task_id": "bw-20",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 424,
+      "output_tokens": 97,
+      "elapsed_sec": 1.1
+    },
+    {
+      "task_id": "bw-21",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 448,
+      "output_tokens": 116,
+      "elapsed_sec": 1.32
+    },
+    {
+      "task_id": "bw-22",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 493,
+      "output_tokens": 86,
+      "elapsed_sec": 1.03
+    },
+    {
+      "task_id": "bw-23",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 464,
+      "output_tokens": 124,
+      "elapsed_sec": 1.3
+    },
+    {
+      "task_id": "bw-24",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 453,
+      "output_tokens": 126,
+      "elapsed_sec": 1.67
+    },
+    {
+      "task_id": "bw-25",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 466,
+      "output_tokens": 156,
+      "elapsed_sec": 1.69
+    },
+    {
+      "task_id": "bw-26",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 472,
+      "output_tokens": 135,
+      "elapsed_sec": 1.39
+    },
+    {
+      "task_id": "bw-27",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 481,
+      "output_tokens": 192,
+      "elapsed_sec": 1.63
+    },
+    {
+      "task_id": "bw-28",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 526,
+      "output_tokens": 102,
+      "elapsed_sec": 1.01
+    },
+    {
+      "task_id": "bw-29",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 523,
+      "output_tokens": 238,
+      "elapsed_sec": 4.3
+    },
+    {
+      "task_id": "bw-30",
+      "ok": true,
+      "model": "claude-haiku-4-5-20251001",
+      "stop_reason": "end_turn",
+      "input_tokens": 512,
+      "output_tokens": 192,
+      "elapsed_sec": 1.64
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "bw-22",
+  "difficulty": "hard",
+  "blocks": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+  ],
+  "initial": {
+    "on_table": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "on": {}
+  },
+  "goal": {
+    "on_table": [
+      "f"
+    ],
+    "on": {
+      "e": "f",
+      "d": "e",
+      "c": "d",
+      "b": "c",
+      "a": "b"
+    }
+  },
+  "reference_optimal_length": 10
+}

@@ -1,0 +1,295 @@
+{
+  "model": "gpt-4o-mini",
+  "system_prompt": "You are a planning agent for the Blocksworld domain. When given a task description, output a single plan as a numbered list of primitive actions, using exactly the format requested in the task. Do not output explanations, reasoning, or any text other than the plan.",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "n_tasks": 30,
+  "n_ok": 30,
+  "total_input_tokens": 11568,
+  "total_output_tokens": 1811,
+  "results": [
+    {
+      "task_id": "bw-01",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 337,
+      "output_tokens": 38,
+      "elapsed_sec": 1.7
+    },
+    {
+      "task_id": "bw-02",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 353,
+      "output_tokens": 32,
+      "elapsed_sec": 7.53
+    },
+    {
+      "task_id": "bw-03",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 343,
+      "output_tokens": 28,
+      "elapsed_sec": 1.71
+    },
+    {
+      "task_id": "bw-04",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 333,
+      "output_tokens": 36,
+      "elapsed_sec": 2.22
+    },
+    {
+      "task_id": "bw-05",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 345,
+      "output_tokens": 40,
+      "elapsed_sec": 1.91
+    },
+    {
+      "task_id": "bw-06",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 337,
+      "output_tokens": 54,
+      "elapsed_sec": 2.52
+    },
+    {
+      "task_id": "bw-07",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 345,
+      "output_tokens": 40,
+      "elapsed_sec": 0.98
+    },
+    {
+      "task_id": "bw-08",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 345,
+      "output_tokens": 40,
+      "elapsed_sec": 1.77
+    },
+    {
+      "task_id": "bw-09",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 343,
+      "output_tokens": 28,
+      "elapsed_sec": 22.91
+    },
+    {
+      "task_id": "bw-10",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 337,
+      "output_tokens": 40,
+      "elapsed_sec": 21.6
+    },
+    {
+      "task_id": "bw-11",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 367,
+      "output_tokens": 40,
+      "elapsed_sec": 21.1
+    },
+    {
+      "task_id": "bw-12",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 359,
+      "output_tokens": 59,
+      "elapsed_sec": 21.36
+    },
+    {
+      "task_id": "bw-13",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 383,
+      "output_tokens": 44,
+      "elapsed_sec": 21.71
+    },
+    {
+      "task_id": "bw-14",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 365,
+      "output_tokens": 40,
+      "elapsed_sec": 21.91
+    },
+    {
+      "task_id": "bw-15",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 367,
+      "output_tokens": 52,
+      "elapsed_sec": 21.81
+    },
+    {
+      "task_id": "bw-16",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 389,
+      "output_tokens": 71,
+      "elapsed_sec": 2.54
+    },
+    {
+      "task_id": "bw-17",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 395,
+      "output_tokens": 59,
+      "elapsed_sec": 21.84
+    },
+    {
+      "task_id": "bw-18",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 405,
+      "output_tokens": 64,
+      "elapsed_sec": 21.77
+    },
+    {
+      "task_id": "bw-19",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 387,
+      "output_tokens": 59,
+      "elapsed_sec": 42.47
+    },
+    {
+      "task_id": "bw-20",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 381,
+      "output_tokens": 64,
+      "elapsed_sec": 42.52
+    },
+    {
+      "task_id": "bw-21",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 403,
+      "output_tokens": 82,
+      "elapsed_sec": 22.02
+    },
+    {
+      "task_id": "bw-22",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 443,
+      "output_tokens": 62,
+      "elapsed_sec": 42.08
+    },
+    {
+      "task_id": "bw-23",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 417,
+      "output_tokens": 63,
+      "elapsed_sec": 1.88
+    },
+    {
+      "task_id": "bw-24",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 407,
+      "output_tokens": 73,
+      "elapsed_sec": 21.4
+    },
+    {
+      "task_id": "bw-25",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 419,
+      "output_tokens": 76,
+      "elapsed_sec": 21.56
+    },
+    {
+      "task_id": "bw-26",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 425,
+      "output_tokens": 104,
+      "elapsed_sec": 21.79
+    },
+    {
+      "task_id": "bw-27",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 433,
+      "output_tokens": 109,
+      "elapsed_sec": 22.31
+    },
+    {
+      "task_id": "bw-28",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 473,
+      "output_tokens": 62,
+      "elapsed_sec": 22.22
+    },
+    {
+      "task_id": "bw-29",
+      "ok": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 471,
+      "output_tokens": 130,
+      "elapsed_sec": 22.32
+    },
+    {
+      "task_id": "bw-30",
+      "ok": true,
+      "skipped": true,
+      "model": "gpt-4o-mini",
+      "finish_reason": "stop",
+      "input_tokens": 461,
+      "output_tokens": 122,
+      "elapsed_sec": 43.41
+    }
+  ]
+}

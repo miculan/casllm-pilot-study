@@ -1,0 +1,28 @@
+{
+  "id": "bw-07",
+  "difficulty": "easy",
+  "blocks": [
+    "a",
+    "b",
+    "c"
+  ],
+  "initial": {
+    "on_table": [
+      "a",
+      "b"
+    ],
+    "on": {
+      "c": "a"
+    }
+  },
+  "goal": {
+    "on_table": [
+      "b"
+    ],
+    "on": {
+      "a": "b",
+      "c": "a"
+    }
+  },
+  "reference_optimal_length": 4
+}

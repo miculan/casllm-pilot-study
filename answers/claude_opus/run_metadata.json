@@ -1,0 +1,283 @@
+{
+  "family": "opus",
+  "model": "claude-opus-4-7",
+  "system_prompt": "You are a planning agent for the Blocksworld domain. When given a task description, output a single plan as a numbered list of primitive actions, using exactly the format requested in the task. Do not output explanations, reasoning, or any text other than the plan.",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "n_tasks": 30,
+  "n_ok": 30,
+  "total_input_tokens": 16636,
+  "total_output_tokens": 4055,
+  "results": [
+    {
+      "task_id": "bw-01",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 492,
+      "output_tokens": 69,
+      "elapsed_sec": 1.89
+    },
+    {
+      "task_id": "bw-02",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 518,
+      "output_tokens": 47,
+      "elapsed_sec": 1.89
+    },
+    {
+      "task_id": "bw-03",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 503,
+      "output_tokens": 48,
+      "elapsed_sec": 2.08
+    },
+    {
+      "task_id": "bw-04",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 488,
+      "output_tokens": 49,
+      "elapsed_sec": 2.71
+    },
+    {
+      "task_id": "bw-05",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 505,
+      "output_tokens": 67,
+      "elapsed_sec": 2.13
+    },
+    {
+      "task_id": "bw-06",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 492,
+      "output_tokens": 87,
+      "elapsed_sec": 2.27
+    },
+    {
+      "task_id": "bw-07",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 505,
+      "output_tokens": 67,
+      "elapsed_sec": 2.04
+    },
+    {
+      "task_id": "bw-08",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 505,
+      "output_tokens": 67,
+      "elapsed_sec": 2.07
+    },
+    {
+      "task_id": "bw-09",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 503,
+      "output_tokens": 48,
+      "elapsed_sec": 1.87
+    },
+    {
+      "task_id": "bw-10",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 492,
+      "output_tokens": 87,
+      "elapsed_sec": 2.14
+    },
+    {
+      "task_id": "bw-11",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 531,
+      "output_tokens": 67,
+      "elapsed_sec": 1.94
+    },
+    {
+      "task_id": "bw-12",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 518,
+      "output_tokens": 126,
+      "elapsed_sec": 2.49
+    },
+    {
+      "task_id": "bw-13",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 557,
+      "output_tokens": 66,
+      "elapsed_sec": 2.05
+    },
+    {
+      "task_id": "bw-14",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 529,
+      "output_tokens": 69,
+      "elapsed_sec": 2.34
+    },
+    {
+      "task_id": "bw-15",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 531,
+      "output_tokens": 88,
+      "elapsed_sec": 2.16
+    },
+    {
+      "task_id": "bw-16",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 557,
+      "output_tokens": 145,
+      "elapsed_sec": 2.77
+    },
+    {
+      "task_id": "bw-17",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 568,
+      "output_tokens": 67,
+      "elapsed_sec": 2.15
+    },
+    {
+      "task_id": "bw-18",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 583,
+      "output_tokens": 105,
+      "elapsed_sec": 2.15
+    },
+    {
+      "task_id": "bw-19",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 555,
+      "output_tokens": 126,
+      "elapsed_sec": 2.53
+    },
+    {
+      "task_id": "bw-20",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 544,
+      "output_tokens": 111,
+      "elapsed_sec": 2.66
+    },
+    {
+      "task_id": "bw-21",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 570,
+      "output_tokens": 204,
+      "elapsed_sec": 2.97
+    },
+    {
+      "task_id": "bw-22",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 635,
+      "output_tokens": 104,
+      "elapsed_sec": 2.56
+    },
+    {
+      "task_id": "bw-23",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 594,
+      "output_tokens": 145,
+      "elapsed_sec": 5.01
+    },
+    {
+      "task_id": "bw-24",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 579,
+      "output_tokens": 146,
+      "elapsed_sec": 2.68
+    },
+    {
+      "task_id": "bw-25",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 596,
+      "output_tokens": 146,
+      "elapsed_sec": 2.66
+    },
+    {
+      "task_id": "bw-26",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 596,
+      "output_tokens": 243,
+      "elapsed_sec": 3.21
+    },
+    {
+      "task_id": "bw-27",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 609,
+      "output_tokens": 223,
+      "elapsed_sec": 3.48
+    },
+    {
+      "task_id": "bw-28",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 674,
+      "output_tokens": 123,
+      "elapsed_sec": 2.56
+    },
+    {
+      "task_id": "bw-29",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 661,
+      "output_tokens": 487,
+      "elapsed_sec": 5.51
+    },
+    {
+      "task_id": "bw-30",
+      "ok": true,
+      "model": "claude-opus-4-7",
+      "stop_reason": "end_turn",
+      "input_tokens": 646,
+      "output_tokens": 628,
+      "elapsed_sec": 7.23
+    }
+  ]
+}

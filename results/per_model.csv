@@ -1,0 +1,6 @@
+run,model,n,fail,p,p_easy,p_medium,p_hard
+claude_haiku,claude-haiku-4-5-20251001,30,10,0.3333,0.2000,0.5000,0.3000
+claude_opus,claude-opus-4-7,30,0,0.0000,0.0000,0.0000,0.0000
+claude_sonnet,claude-sonnet-4-6,30,4,0.1333,0.1000,0.3000,0.0000
+openai_gpt-4o,gpt-4o,30,10,0.3333,0.1000,0.4000,0.5000
+openai_gpt-4o-mini,gpt-4o-mini,30,23,0.7667,0.5000,0.9000,0.9000

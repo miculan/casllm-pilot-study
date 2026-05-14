@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-7",
+  "stop_reason": "end_turn",
+  "input_tokens": 518,
+  "output_tokens": 126,
+  "elapsed_sec": 2.49
+}

@@ -1,0 +1,34 @@
+# Task bw-07 (Blocksworld, difficulty: easy)
+
+Domain rules:
+- Blocks are either on the table or stacked on exactly one other block.
+- The robot arm can hold at most one block at a time.
+- Actions:
+    * pickup(X)    -- requires X on table, X clear, arm empty
+    * putdown(X)   -- requires arm holding X
+    * stack(X, Y)  -- requires arm holding X, Y clear
+    * unstack(X, Y)-- requires X on Y, X clear, arm empty
+
+Blocks: a, b, c
+
+Initial state:
+- Block a is on the table.
+- Block b is on the table.
+- Block c is on top of block a.
+- Block b is clear (nothing on top).
+- Block c is clear (nothing on top).
+- The robot arm is empty.
+
+Goal state:
+- Block b is on the table.
+- Block a is on top of block b.
+- Block c is on top of block a.
+
+Output a plan that achieves the goal, using EXACTLY this format:
+PLAN:
+1. <action>
+2. <action>
+...
+
+Each <action> must be one of: pickup(X), putdown(X), stack(X, Y), unstack(X, Y).
+Do not output anything before 'PLAN:' or after the last numbered line.

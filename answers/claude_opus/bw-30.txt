@@ -1,0 +1,58 @@
+Let me work through this.
+
+Initial:
+- b on table, g on b, d on g
+- c on table, a on c, f on a
+- e on table, h on e
+
+Goal:
+- a on table, b on a, c on b, d on c
+- e on table, f on e, g on f, h on g
+
+Need to disassemble everything and rebuild.
+
+Step by step:
+1. unstack d from g → put d aside
+2. unstack g from b → need somewhere
+3. unstack f from a
+4. unstack a from c
+5. unstack h from e
+
+Let me plan:
+1. unstack(f, a), putdown(f)
+2. unstack(d, g), putdown(d)
+3. unstack(g, b), putdown(g)
+4. unstack(h, e), putdown(h)
+5. unstack(a, c), putdown(a) — a on table ✓
+6. Now c on table, need to move c onto b which is on a
+7. pickup(c)? c is clear, on table. But need b on a first.
+8. pickup(b), stack(b, a)
+9. pickup(c), stack(c, b)
+10. pickup(d), stack(d, c)
+11. pickup(f), stack(f, e)
+12. pickup(g), stack(g, f)
+13. pickup(h), stack(h, g)
+
+PLAN:
+1. unstack(f, a)
+2. putdown(f)
+3. unstack(d, g)
+4. putdown(d)
+5. unstack(g, b)
+6. putdown(g)
+7. unstack(h, e)
+8. putdown(h)
+9. unstack(a, c)
+10. putdown(a)
+11. pickup(b)
+12. stack(b, a)
+13. pickup(c)
+14. stack(c, b)
+15. pickup(d)
+16. stack(d, c)
+17. pickup(f)
+18. stack(f, e)
+19. pickup(g)
+20. stack(g, f)
+21. pickup(h)
+22. stack(h, g)

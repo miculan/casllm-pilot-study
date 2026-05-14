@@ -1,0 +1,40 @@
+I need to transform:
+- Table: a, d; a→b→c; d→e
+
+Into:
+- Table: e; e→d→c→b→a
+
+Let me trace the goal: e on table, d on e, c on d, b on c, a on b.
+
+Current state: table has a, d. Stack1: a→b→c (c on top). Stack2: d→e (e on top).
+
+Step 1: Unstack c from b (c is clear)
+Step 2: Putdown c on table
+Step 3: Unstack b from a (b is now clear)
+Step 4: Putdown b on table
+Step 5: Unstack e from d (e is clear)
+Step 6: Putdown e on table
+Step 7: Pickup d (d is on table, clear)
+Step 8: Stack d on e (e is on table, clear)
+Step 9: Pickup c (c is on table, clear)
+Step 10: Stack c on d (d is clear)
+Step 11: Pickup b (b is on table, clear)
+Step 12: Stack b on c (c is clear)
+Step 13: Pickup a (a is on table, clear)
+Step 14: Stack a on b (b is clear)
+
+PLAN:
+1. unstack(c, b)
+2. putdown(c)
+3. unstack(b, a)
+4. putdown(b)
+5. unstack(e, d)
+6. putdown(e)
+7. pickup(d)
+8. stack(d, e)
+9. pickup(c)
+10. stack(c, d)
+11. pickup(b)
+12. stack(b, c)
+13. pickup(a)
+14. stack(a, b)

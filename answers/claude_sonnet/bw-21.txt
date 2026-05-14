@@ -1,0 +1,32 @@
+I need to transform the stack a-b-c-d-e-f (bottom to top) into f-e-d-c-b-a (bottom to top).
+
+Initial: table→a→b→c→d→e→f
+Goal: table→f→e→d→c→b→a
+
+I need to reverse the stack. Let me think through this carefully.
+
+Current: a(table), b on a, c on b, d on c, e on d, f on e.
+Goal: f(table), e on f, d on e, c on d, b on c, a on b.
+
+I'll unstack from top, placing blocks temporarily on the table, then rebuild.
+
+Step 1: Unstack f from e, put on table (f will be the base).
+Step 2: Unstack e from d, stack on f.
+Step 3: Unstack d from c, stack on e.
+Step 4: Unstack c from b, stack on d.
+Step 5: Unstack b from a, stack on c.
+Step 6: Pickup a, stack on b.
+
+PLAN:
+1. unstack(f, e)
+2. putdown(f)
+3. unstack(e, d)
+4. stack(e, f)
+5. unstack(d, c)
+6. stack(d, e)
+7. unstack(c, b)
+8. stack(c, d)
+9. unstack(b, a)
+10. stack(b, c)
+11. pickup(a)
+12. stack(a, b)

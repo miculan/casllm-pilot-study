@@ -1,0 +1,30 @@
+{
+  "id": "bw-13",
+  "difficulty": "medium",
+  "blocks": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "initial": {
+    "on_table": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "on": {}
+  },
+  "goal": {
+    "on_table": [
+      "d"
+    ],
+    "on": {
+      "c": "d",
+      "b": "c",
+      "a": "b"
+    }
+  },
+  "reference_optimal_length": 6
+}

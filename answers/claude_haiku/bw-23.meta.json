@@ -1,0 +1,7 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "stop_reason": "end_turn",
+  "input_tokens": 464,
+  "output_tokens": 124,
+  "elapsed_sec": 1.3
+}

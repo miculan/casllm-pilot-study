@@ -1,0 +1,51 @@
+I need to transform the stack a-b-c-d-e-f-g (bottom to top) into g on table, then f-e-d-c-b-a stacked on top.
+
+Initial: table→a→b→c→d→e→f→g
+Goal: table→g→f→e→d→c→b→a
+
+I need to reverse the stack with g on the table instead of a.
+
+Let me think through this step by step.
+
+Current stack (bottom to top): a, b, c, d, e, f, g
+
+I need to unstack everything, put g on table, then rebuild.
+
+Step 1: Unstack g from f, put it on table.
+Step 2: Unstack f from e, need somewhere to put it temporarily.
+Step 3: Continue unstacking...
+
+Let me work through this carefully:
+
+1. unstack(g, f) - hold g
+2. putdown(g) - g on table
+3. unstack(f, e) - hold f
+4. stack(f, g) - f on g
+5. unstack(e, d) - hold e
+6. stack(e, f) - e on f
+7. unstack(d, c) - hold d
+8. stack(d, e) - d on e
+9. unstack(c, b) - hold c
+10. stack(c, d) - c on d
+11. unstack(b, a) - hold b
+12. stack(b, c) - b on c
+13. pickup(a) - hold a
+14. stack(a, b) - a on b
+
+This gives: table→g→f→e→d→c→b→a which matches the goal!
+
+PLAN:
+1. unstack(g, f)
+2. putdown(g)
+3. unstack(f, e)
+4. stack(f, g)
+5. unstack(e, d)
+6. stack(e, f)
+7. unstack(d, c)
+8. stack(d, e)
+9. unstack(c, b)
+10. stack(c, d)
+11. unstack(b, a)
+12. stack(b, c)
+13. pickup(a)
+14. stack(a, b)

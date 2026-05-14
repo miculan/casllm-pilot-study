@@ -1,0 +1,11 @@
+a,b,n,p_a,p_b,q,q_indep_if_uncorrelated,q_over_min_p,R_pair
+claude_haiku,claude_opus,30,0.3333,0.0000,0.0000,0.0000,0.0000,1.0000
+claude_haiku,claude_sonnet,30,0.3333,0.1333,0.0667,0.0444,0.5000,0.9333
+claude_haiku,openai_gpt-4o,30,0.3333,0.3333,0.1667,0.1111,0.5000,0.8333
+claude_haiku,openai_gpt-4o-mini,30,0.3333,0.7667,0.3000,0.2556,0.9000,0.7000
+claude_opus,claude_sonnet,30,0.0000,0.1333,0.0000,0.0000,0.0000,1.0000
+claude_opus,openai_gpt-4o,30,0.0000,0.3333,0.0000,0.0000,0.0000,1.0000
+claude_opus,openai_gpt-4o-mini,30,0.0000,0.7667,0.0000,0.0000,0.0000,1.0000
+claude_sonnet,openai_gpt-4o,30,0.1333,0.3333,0.0000,0.0444,0.0000,1.0000
+claude_sonnet,openai_gpt-4o-mini,30,0.1333,0.7667,0.1333,0.1022,1.0000,0.8667
+openai_gpt-4o,openai_gpt-4o-mini,30,0.3333,0.7667,0.3000,0.2556,0.9000,0.7000

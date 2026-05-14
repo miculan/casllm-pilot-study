@@ -1,0 +1,9 @@
+PLAN:
+1. unstack(d, b)
+2. putdown(d)
+3. pickup(b)
+4. stack(b, a)
+5. unstack(c, a)
+6. putdown(c)
+7. pickup(d)
+8. stack(d, c)

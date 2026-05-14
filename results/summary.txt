@@ -1,0 +1,69 @@
+======================================================================
+PILOT STUDY RESULTS — Blocksworld planning
+======================================================================
+
+Per-model marginal failure rates
+----------------------------------------------------------------------
+run                            model                       fail/n       p
+claude_haiku                   claude-haiku-4-5-2025100   10/30     0.3333
+claude_opus                    claude-opus-4-7             0/30     0.0000
+claude_sonnet                  claude-sonnet-4-6           4/30     0.1333
+openai_gpt-4o                  gpt-4o                     10/30     0.3333
+openai_gpt-4o-mini             gpt-4o-mini                23/30     0.7667
+
+Per-model failure rate by difficulty
+----------------------------------------------------------------------
+run                                   easy      medium        hard
+claude_haiku                        0.2000      0.5000      0.3000
+claude_opus                         0.0000      0.0000      0.0000
+claude_sonnet                       0.1000      0.3000      0.0000
+openai_gpt-4o                       0.1000      0.4000      0.5000
+openai_gpt-4o-mini                  0.5000      0.9000      0.9000
+
+Pairwise joint failure
+----------------------------------------------------------------------
+pair                                                  p_a    p_b      q  q/min   R_pair
+claude_haiku | claude_opus                          0.333  0.000  0.000  0.000   1.0000
+claude_haiku | claude_sonnet                        0.333  0.133  0.067  0.500   0.9333
+claude_haiku | openai_gpt-4o                        0.333  0.333  0.167  0.500   0.8333
+claude_haiku | openai_gpt-4o-mini                   0.333  0.767  0.300  0.900   0.7000
+claude_opus | claude_sonnet                         0.000  0.133  0.000  0.000   1.0000
+claude_opus | openai_gpt-4o                         0.000  0.333  0.000  0.000   1.0000
+claude_opus | openai_gpt-4o-mini                    0.000  0.767  0.000  0.000   1.0000
+claude_sonnet | openai_gpt-4o                       0.133  0.333  0.000  0.000   1.0000
+claude_sonnet | openai_gpt-4o-mini                  0.133  0.767  0.133  1.000   0.8667
+openai_gpt-4o | openai_gpt-4o-mini                  0.333  0.767  0.300  0.900   0.7000
+
+Per-task pass/fail (P=pass, F=fail)
+----------------------------------------------------------------------
+task     diff      claude_haiku   claude_opus  claude_sonne  openai_gpt-4  openai_gpt-4
+bw-01    easy                 F             P             P             P             F
+bw-02    easy                 P             P             P             P             F
+bw-03    easy                 P             P             P             P             P
+bw-04    easy                 P             P             P             P             F
+bw-05    easy                 P             P             P             P             P
+bw-06    easy                 P             P             P             P             P
+bw-07    easy                 P             P             P             P             P
+bw-08    easy                 P             P             P             F             F
+bw-09    easy                 P             P             P             P             P
+bw-10    easy                 F             P             F             P             F
+bw-11    medium               F             P             F             P             F
+bw-12    medium               P             P             P             P             F
+bw-13    medium               F             P             P             F             F
+bw-14    medium               P             P             F             P             F
+bw-15    medium               P             P             P             P             F
+bw-16    medium               F             P             P             F             F
+bw-17    medium               P             P             P             F             F
+bw-18    medium               F             P             P             P             P
+bw-19    medium               F             P             P             F             F
+bw-20    medium               P             P             F             P             F
+bw-21    hard                 P             P             P             P             F
+bw-22    hard                 P             P             P             F             P
+bw-23    hard                 P             P             P             P             F
+bw-24    hard                 P             P             P             F             F
+bw-25    hard                 F             P             P             F             F
+bw-26    hard                 P             P             P             P             F
+bw-27    hard                 P             P             P             F             F
+bw-28    hard                 P             P             P             P             F
+bw-29    hard                 F             P             P             P             F
+bw-30    hard                 F             P             P             F             F

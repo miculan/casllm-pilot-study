@@ -1,0 +1,7 @@
+{
+  "model": "claude-sonnet-4-6",
+  "stop_reason": "end_turn",
+  "input_tokens": 449,
+  "output_tokens": 374,
+  "elapsed_sec": 6.35
+}

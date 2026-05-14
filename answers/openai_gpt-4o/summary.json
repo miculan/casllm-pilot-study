@@ -1,0 +1,559 @@
+[
+  {
+    "task_id": "bw-01",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 6,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(c, b)",
+      "putdown(c)",
+      "unstack(b, a)",
+      "stack(b, c)",
+      "pickup(a)",
+      "stack(a, b)"
+    ]
+  },
+  {
+    "task_id": "bw-02",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 4,
+    "failure_step": null,
+    "extracted_plan": [
+      "pickup(b)",
+      "stack(b, c)",
+      "pickup(a)",
+      "stack(a, b)"
+    ]
+  },
+  {
+    "task_id": "bw-03",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 4,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(b, a)",
+      "putdown(b)",
+      "pickup(a)",
+      "stack(a, c)"
+    ]
+  },
+  {
+    "task_id": "bw-04",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 4,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(c, b)",
+      "putdown(c)",
+      "unstack(b, a)",
+      "putdown(b)"
+    ]
+  },
+  {
+    "task_id": "bw-05",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 6,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(c, b)",
+      "putdown(c)",
+      "pickup(b)",
+      "stack(b, a)",
+      "pickup(c)",
+      "stack(c, b)"
+    ]
+  },
+  {
+    "task_id": "bw-06",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 8,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(b, a)",
+      "putdown(b)",
+      "unstack(a, c)",
+      "putdown(a)",
+      "pickup(b)",
+      "stack(b, a)",
+      "pickup(c)",
+      "stack(c, b)"
+    ]
+  },
+  {
+    "task_id": "bw-07",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 6,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(c, a)",
+      "putdown(c)",
+      "pickup(a)",
+      "stack(a, b)",
+      "pickup(c)",
+      "stack(c, a)"
+    ]
+  },
+  {
+    "task_id": "bw-08",
+    "success": false,
+    "reason": "step 5: 'pickup(c)' invalid \u2014 c is not clear",
+    "n_actions": 6,
+    "failure_step": 5,
+    "extracted_plan": [
+      "unstack(a, b)",
+      "putdown(a)",
+      "pickup(b)",
+      "stack(b, c)",
+      "pickup(c)",
+      "stack(c, a)"
+    ]
+  },
+  {
+    "task_id": "bw-09",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 4,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(b, c)",
+      "putdown(b)",
+      "pickup(c)",
+      "stack(c, a)"
+    ]
+  },
+  {
+    "task_id": "bw-10",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 8,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(a, c)",
+      "putdown(a)",
+      "unstack(c, b)",
+      "putdown(c)",
+      "pickup(b)",
+      "stack(b, a)",
+      "pickup(c)",
+      "stack(c, b)"
+    ]
+  },
+  {
+    "task_id": "bw-11",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 6,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(d, c)",
+      "putdown(d)",
+      "pickup(c)",
+      "stack(c, b)",
+      "pickup(d)",
+      "stack(d, c)"
+    ]
+  },
+  {
+    "task_id": "bw-12",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 8,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(d, c)",
+      "putdown(d)",
+      "unstack(c, b)",
+      "stack(c, d)",
+      "unstack(b, a)",
+      "stack(b, c)",
+      "pickup(a)",
+      "stack(a, b)"
+    ]
+  },
+  {
+    "task_id": "bw-13",
+    "success": false,
+    "reason": "step 3: 'pickup(b)' invalid \u2014 b is not clear",
+    "n_actions": 6,
+    "failure_step": 3,
+    "extracted_plan": [
+      "pickup(a)",
+      "stack(a, b)",
+      "pickup(b)",
+      "stack(b, c)",
+      "pickup(c)",
+      "stack(c, d)"
+    ]
+  },
+  {
+    "task_id": "bw-14",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 8,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(d, b)",
+      "putdown(d)",
+      "unstack(c, a)",
+      "putdown(c)",
+      "pickup(b)",
+      "stack(b, a)",
+      "pickup(d)",
+      "stack(d, c)"
+    ]
+  },
+  {
+    "task_id": "bw-15",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 8,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(a, c)",
+      "putdown(a)",
+      "unstack(b, d)",
+      "stack(b, a)",
+      "pickup(c)",
+      "stack(c, b)",
+      "pickup(d)",
+      "stack(d, c)"
+    ]
+  },
+  {
+    "task_id": "bw-16",
+    "success": false,
+    "reason": "step 6: 'stack(c, d)' invalid \u2014 d is not clear",
+    "n_actions": 10,
+    "failure_step": 6,
+    "extracted_plan": [
+      "unstack(c, b)",
+      "putdown(c)",
+      "unstack(b, a)",
+      "putdown(b)",
+      "pickup(c)",
+      "stack(c, d)",
+      "pickup(b)",
+      "stack(b, c)",
+      "pickup(a)",
+      "stack(a, b)"
+    ]
+  },
+  {
+    "task_id": "bw-17",
+    "success": false,
+    "reason": "step 7: 'pickup(e)' invalid \u2014 e is not on the table",
+    "n_actions": 8,
+    "failure_step": 7,
+    "extracted_plan": [
+      "unstack(c, b)",
+      "putdown(c)",
+      "pickup(b)",
+      "stack(b, a)",
+      "pickup(c)",
+      "stack(c, b)",
+      "pickup(e)",
+      "stack(e, d)"
+    ]
+  },
+  {
+    "task_id": "bw-18",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 10,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(a, e)",
+      "putdown(a)",
+      "pickup(b)",
+      "stack(b, a)",
+      "pickup(c)",
+      "stack(c, b)",
+      "pickup(d)",
+      "stack(d, c)",
+      "pickup(e)",
+      "stack(e, d)"
+    ]
+  },
+  {
+    "task_id": "bw-19",
+    "success": false,
+    "reason": "step 7: 'pickup(c)' invalid \u2014 c is not clear",
+    "n_actions": 10,
+    "failure_step": 7,
+    "extracted_plan": [
+      "unstack(b, e)",
+      "putdown(b)",
+      "unstack(d, c)",
+      "putdown(d)",
+      "unstack(e, a)",
+      "stack(e, c)",
+      "pickup(c)",
+      "stack(c, a)",
+      "pickup(d)",
+      "stack(d, b)"
+    ]
+  },
+  {
+    "task_id": "bw-20",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 10,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(a, b)",
+      "putdown(a)",
+      "unstack(b, c)",
+      "stack(b, a)",
+      "unstack(c, d)",
+      "stack(c, b)",
+      "unstack(d, e)",
+      "stack(d, c)",
+      "pickup(e)",
+      "stack(e, d)"
+    ]
+  },
+  {
+    "task_id": "bw-21",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 12,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(f, e)",
+      "putdown(f)",
+      "unstack(e, d)",
+      "stack(e, f)",
+      "unstack(d, c)",
+      "stack(d, e)",
+      "unstack(c, b)",
+      "stack(c, d)",
+      "unstack(b, a)",
+      "stack(b, c)",
+      "pickup(a)",
+      "stack(a, b)"
+    ]
+  },
+  {
+    "task_id": "bw-22",
+    "success": false,
+    "reason": "step 3: 'pickup(b)' invalid \u2014 b is not clear",
+    "n_actions": 10,
+    "failure_step": 3,
+    "extracted_plan": [
+      "pickup(a)",
+      "stack(a, b)",
+      "pickup(b)",
+      "stack(b, c)",
+      "pickup(c)",
+      "stack(c, d)",
+      "pickup(d)",
+      "stack(d, e)",
+      "pickup(e)",
+      "stack(e, f)"
+    ]
+  },
+  {
+    "task_id": "bw-23",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 14,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(b, a)",
+      "putdown(b)",
+      "unstack(d, c)",
+      "putdown(d)",
+      "unstack(f, e)",
+      "putdown(f)",
+      "pickup(c)",
+      "stack(c, a)",
+      "pickup(e)",
+      "stack(e, c)",
+      "pickup(d)",
+      "stack(d, b)",
+      "pickup(f)",
+      "stack(f, d)"
+    ]
+  },
+  {
+    "task_id": "bw-24",
+    "success": false,
+    "reason": "step 9: 'stack(f, c)' invalid \u2014 arm is holding None, not 'f'",
+    "n_actions": 11,
+    "failure_step": 9,
+    "extracted_plan": [
+      "unstack(c, b)",
+      "putdown(c)",
+      "unstack(b, a)",
+      "putdown(b)",
+      "unstack(f, e)",
+      "putdown(f)",
+      "unstack(e, d)",
+      "stack(e, b)",
+      "stack(f, c)",
+      "pickup(d)",
+      "stack(d, a)"
+    ]
+  },
+  {
+    "task_id": "bw-25",
+    "success": false,
+    "reason": "step 15: 'pickup(c)' invalid \u2014 c is not clear",
+    "n_actions": 16,
+    "failure_step": 15,
+    "extracted_plan": [
+      "unstack(a, f)",
+      "putdown(a)",
+      "unstack(f, b)",
+      "putdown(f)",
+      "unstack(c, d)",
+      "putdown(c)",
+      "pickup(d)",
+      "stack(d, c)",
+      "pickup(e)",
+      "stack(e, d)",
+      "pickup(f)",
+      "stack(f, e)",
+      "pickup(b)",
+      "stack(b, a)",
+      "pickup(c)",
+      "stack(c, b)"
+    ]
+  },
+  {
+    "task_id": "bw-26",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 14,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(g, f)",
+      "putdown(g)",
+      "unstack(f, e)",
+      "stack(f, g)",
+      "unstack(e, d)",
+      "stack(e, f)",
+      "unstack(d, c)",
+      "stack(d, e)",
+      "unstack(c, b)",
+      "stack(c, d)",
+      "unstack(b, a)",
+      "stack(b, c)",
+      "pickup(a)",
+      "stack(a, b)"
+    ]
+  },
+  {
+    "task_id": "bw-27",
+    "success": false,
+    "reason": "step 15: 'pickup(e)' invalid \u2014 e is not clear",
+    "n_actions": 18,
+    "failure_step": 15,
+    "extracted_plan": [
+      "unstack(g, e)",
+      "putdown(g)",
+      "unstack(e, c)",
+      "putdown(e)",
+      "unstack(c, a)",
+      "putdown(c)",
+      "unstack(f, d)",
+      "putdown(f)",
+      "unstack(d, b)",
+      "stack(d, c)",
+      "pickup(f)",
+      "stack(f, e)",
+      "pickup(g)",
+      "stack(g, f)",
+      "pickup(e)",
+      "stack(e, d)",
+      "pickup(c)",
+      "stack(c, b)"
+    ]
+  },
+  {
+    "task_id": "bw-28",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 12,
+    "failure_step": null,
+    "extracted_plan": [
+      "pickup(b)",
+      "stack(b, a)",
+      "pickup(c)",
+      "stack(c, b)",
+      "pickup(d)",
+      "stack(d, c)",
+      "pickup(e)",
+      "stack(e, d)",
+      "pickup(f)",
+      "stack(f, e)",
+      "pickup(g)",
+      "stack(g, f)"
+    ]
+  },
+  {
+    "task_id": "bw-29",
+    "success": true,
+    "reason": "goal achieved",
+    "n_actions": 22,
+    "failure_step": null,
+    "extracted_plan": [
+      "unstack(b, a)",
+      "putdown(b)",
+      "unstack(d, c)",
+      "putdown(d)",
+      "unstack(f, e)",
+      "putdown(f)",
+      "unstack(h, g)",
+      "putdown(h)",
+      "pickup(g)",
+      "stack(g, h)",
+      "pickup(f)",
+      "stack(f, g)",
+      "pickup(e)",
+      "stack(e, f)",
+      "pickup(d)",
+      "stack(d, e)",
+      "pickup(c)",
+      "stack(c, d)",
+      "pickup(b)",
+      "stack(b, c)",
+      "pickup(a)",
+      "stack(a, b)"
+    ]
+  },
+  {
+    "task_id": "bw-30",
+    "success": false,
+    "reason": "step 11: 'pickup(h)' invalid \u2014 h is not on the table",
+    "n_actions": 18,
+    "failure_step": 11,
+    "extracted_plan": [
+      "unstack(f, a)",
+      "putdown(f)",
+      "unstack(a, c)",
+      "putdown(a)",
+      "unstack(d, g)",
+      "putdown(d)",
+      "unstack(g, b)",
+      "stack(g, f)",
+      "pickup(d)",
+      "stack(d, c)",
+      "pickup(h)",
+      "stack(h, g)",
+      "pickup(b)",
+      "stack(b, a)",
+      "pickup(c)",
+      "stack(c, b)",
+      "pickup(f)",
+      "stack(f, e)"
+    ]
+  }
+]

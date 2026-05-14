@@ -1,0 +1,51 @@
+I need to build the stack h(table), g, f, e, d, c, b, a from top to bottom, meaning a is on top.
+
+Let me analyze the goal: h on table, g on h, f on g, e on f, d on e, c on d, b on c, a on b.
+
+Initial state: b on a(table), d on c(table), f on e(table), h on g(table). All top blocks (b,d,f,h) are clear.
+
+I need to build from bottom up. First, place h on table (it's already on g, need to unstack it), then build g on h, f on g, etc.
+
+Let me think step by step:
+
+1. Unstack h from g → hold h
+2. Putdown h → h on table
+3. Now g is clear, on table. I need g on h.
+4. Pickup g → hold g
+5. Stack g on h → g on h
+6. Now f is on e (table), f is clear. I need f on g.
+7. Unstack f from e → hold f
+8. Stack f on g → f on g
+9. Now e is on table, clear. I need e on f.
+10. Pickup e → hold e
+11. Stack e on f → e on f
+12. Now d is on c (table), d is clear. I need d on e.
+13. Unstack d from c → hold d
+14. Stack d on e → d on e
+15. Now c is on table, clear. I need c on d.
+16. Pickup c → hold c
+17. Stack c on d → c on d
+18. Now b is on a (table), b is clear. I need b on c.
+19. Unstack b from a → hold b
+20. Stack b on c → b on c
+21. Now a is on table, clear. I need a on b.
+22. Pickup a → hold a
+23. Stack a on b → a on b
+
+PLAN:
+1. unstack(h, g)
+2. putdown(h)
+3. pickup(g)
+4. stack(g, h)
+5. unstack(f, e)
+6. stack(f, g)
+7. pickup(e)
+8. stack(e, f)
+9. unstack(d, c)
+10. stack(d, e)
+11. pickup(c)
+12. stack(c, d)
+13. unstack(b, a)
+14. stack(b, c)
+15. pickup(a)
+16. stack(a, b)

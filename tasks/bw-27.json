@@ -1,0 +1,40 @@
+{
+  "id": "bw-27",
+  "difficulty": "hard",
+  "blocks": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+  ],
+  "initial": {
+    "on_table": [
+      "a",
+      "b"
+    ],
+    "on": {
+      "c": "a",
+      "e": "c",
+      "g": "e",
+      "d": "b",
+      "f": "d"
+    }
+  },
+  "goal": {
+    "on_table": [
+      "a"
+    ],
+    "on": {
+      "b": "a",
+      "c": "b",
+      "d": "c",
+      "e": "d",
+      "f": "e",
+      "g": "f"
+    }
+  },
+  "reference_optimal_length": 14
+}

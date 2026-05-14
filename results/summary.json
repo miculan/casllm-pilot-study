@@ -1,0 +1,523 @@
+{
+  "per_model": {
+    "claude_haiku": {
+      "model": "claude-haiku-4-5-20251001",
+      "n": 30,
+      "n_fail": 10,
+      "p": 0.3333333333333333,
+      "p_by_difficulty": {
+        "easy": 0.2,
+        "medium": 0.5,
+        "hard": 0.3
+      },
+      "counts_by_difficulty": {
+        "easy": {
+          "fail": 2,
+          "total": 10
+        },
+        "medium": {
+          "fail": 5,
+          "total": 10
+        },
+        "hard": {
+          "fail": 3,
+          "total": 10
+        }
+      }
+    },
+    "claude_opus": {
+      "model": "claude-opus-4-7",
+      "n": 30,
+      "n_fail": 0,
+      "p": 0.0,
+      "p_by_difficulty": {
+        "easy": 0.0,
+        "medium": 0.0,
+        "hard": 0.0
+      },
+      "counts_by_difficulty": {
+        "easy": {
+          "fail": 0,
+          "total": 10
+        },
+        "medium": {
+          "fail": 0,
+          "total": 10
+        },
+        "hard": {
+          "fail": 0,
+          "total": 10
+        }
+      }
+    },
+    "claude_sonnet": {
+      "model": "claude-sonnet-4-6",
+      "n": 30,
+      "n_fail": 4,
+      "p": 0.13333333333333333,
+      "p_by_difficulty": {
+        "easy": 0.1,
+        "medium": 0.3,
+        "hard": 0.0
+      },
+      "counts_by_difficulty": {
+        "easy": {
+          "fail": 1,
+          "total": 10
+        },
+        "medium": {
+          "fail": 3,
+          "total": 10
+        },
+        "hard": {
+          "fail": 0,
+          "total": 10
+        }
+      }
+    },
+    "openai_gpt-4o": {
+      "model": "gpt-4o",
+      "n": 30,
+      "n_fail": 10,
+      "p": 0.3333333333333333,
+      "p_by_difficulty": {
+        "easy": 0.1,
+        "medium": 0.4,
+        "hard": 0.5
+      },
+      "counts_by_difficulty": {
+        "easy": {
+          "fail": 1,
+          "total": 10
+        },
+        "medium": {
+          "fail": 4,
+          "total": 10
+        },
+        "hard": {
+          "fail": 5,
+          "total": 10
+        }
+      }
+    },
+    "openai_gpt-4o-mini": {
+      "model": "gpt-4o-mini",
+      "n": 30,
+      "n_fail": 23,
+      "p": 0.7666666666666667,
+      "p_by_difficulty": {
+        "easy": 0.5,
+        "medium": 0.9,
+        "hard": 0.9
+      },
+      "counts_by_difficulty": {
+        "easy": {
+          "fail": 5,
+          "total": 10
+        },
+        "medium": {
+          "fail": 9,
+          "total": 10
+        },
+        "hard": {
+          "fail": 9,
+          "total": 10
+        }
+      }
+    }
+  },
+  "pairwise": [
+    {
+      "a": "claude_haiku",
+      "b": "claude_opus",
+      "n": 30,
+      "p_a": 0.3333333333333333,
+      "p_b": 0.0,
+      "q": 0.0,
+      "q_indep_if_uncorrelated": 0.0,
+      "q_over_min_p": 0.0,
+      "R_pair": 1.0,
+      "joint_failures": 0
+    },
+    {
+      "a": "claude_haiku",
+      "b": "claude_sonnet",
+      "n": 30,
+      "p_a": 0.3333333333333333,
+      "p_b": 0.13333333333333333,
+      "q": 0.06666666666666667,
+      "q_indep_if_uncorrelated": 0.04444444444444444,
+      "q_over_min_p": 0.5,
+      "R_pair": 0.9333333333333333,
+      "joint_failures": 2
+    },
+    {
+      "a": "claude_haiku",
+      "b": "openai_gpt-4o",
+      "n": 30,
+      "p_a": 0.3333333333333333,
+      "p_b": 0.3333333333333333,
+      "q": 0.16666666666666666,
+      "q_indep_if_uncorrelated": 0.1111111111111111,
+      "q_over_min_p": 0.5,
+      "R_pair": 0.8333333333333334,
+      "joint_failures": 5
+    },
+    {
+      "a": "claude_haiku",
+      "b": "openai_gpt-4o-mini",
+      "n": 30,
+      "p_a": 0.3333333333333333,
+      "p_b": 0.7666666666666667,
+      "q": 0.3,
+      "q_indep_if_uncorrelated": 0.25555555555555554,
+      "q_over_min_p": 0.9,
+      "R_pair": 0.7,
+      "joint_failures": 9
+    },
+    {
+      "a": "claude_opus",
+      "b": "claude_sonnet",
+      "n": 30,
+      "p_a": 0.0,
+      "p_b": 0.13333333333333333,
+      "q": 0.0,
+      "q_indep_if_uncorrelated": 0.0,
+      "q_over_min_p": 0.0,
+      "R_pair": 1.0,
+      "joint_failures": 0
+    },
+    {
+      "a": "claude_opus",
+      "b": "openai_gpt-4o",
+      "n": 30,
+      "p_a": 0.0,
+      "p_b": 0.3333333333333333,
+      "q": 0.0,
+      "q_indep_if_uncorrelated": 0.0,
+      "q_over_min_p": 0.0,
+      "R_pair": 1.0,
+      "joint_failures": 0
+    },
+    {
+      "a": "claude_opus",
+      "b": "openai_gpt-4o-mini",
+      "n": 30,
+      "p_a": 0.0,
+      "p_b": 0.7666666666666667,
+      "q": 0.0,
+      "q_indep_if_uncorrelated": 0.0,
+      "q_over_min_p": 0.0,
+      "R_pair": 1.0,
+      "joint_failures": 0
+    },
+    {
+      "a": "claude_sonnet",
+      "b": "openai_gpt-4o",
+      "n": 30,
+      "p_a": 0.13333333333333333,
+      "p_b": 0.3333333333333333,
+      "q": 0.0,
+      "q_indep_if_uncorrelated": 0.04444444444444444,
+      "q_over_min_p": 0.0,
+      "R_pair": 1.0,
+      "joint_failures": 0
+    },
+    {
+      "a": "claude_sonnet",
+      "b": "openai_gpt-4o-mini",
+      "n": 30,
+      "p_a": 0.13333333333333333,
+      "p_b": 0.7666666666666667,
+      "q": 0.13333333333333333,
+      "q_indep_if_uncorrelated": 0.10222222222222223,
+      "q_over_min_p": 1.0,
+      "R_pair": 0.8666666666666667,
+      "joint_failures": 4
+    },
+    {
+      "a": "openai_gpt-4o",
+      "b": "openai_gpt-4o-mini",
+      "n": 30,
+      "p_a": 0.3333333333333333,
+      "p_b": 0.7666666666666667,
+      "q": 0.3,
+      "q_indep_if_uncorrelated": 0.25555555555555554,
+      "q_over_min_p": 0.9,
+      "R_pair": 0.7,
+      "joint_failures": 9
+    }
+  ],
+  "per_task": [
+    {
+      "task": "bw-01",
+      "difficulty": "easy",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-02",
+      "difficulty": "easy",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-03",
+      "difficulty": "easy",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "P"
+    },
+    {
+      "task": "bw-04",
+      "difficulty": "easy",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-05",
+      "difficulty": "easy",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "P"
+    },
+    {
+      "task": "bw-06",
+      "difficulty": "easy",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "P"
+    },
+    {
+      "task": "bw-07",
+      "difficulty": "easy",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "P"
+    },
+    {
+      "task": "bw-08",
+      "difficulty": "easy",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-09",
+      "difficulty": "easy",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "P"
+    },
+    {
+      "task": "bw-10",
+      "difficulty": "easy",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "F",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-11",
+      "difficulty": "medium",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "F",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-12",
+      "difficulty": "medium",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-13",
+      "difficulty": "medium",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-14",
+      "difficulty": "medium",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "F",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-15",
+      "difficulty": "medium",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-16",
+      "difficulty": "medium",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-17",
+      "difficulty": "medium",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-18",
+      "difficulty": "medium",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "P"
+    },
+    {
+      "task": "bw-19",
+      "difficulty": "medium",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-20",
+      "difficulty": "medium",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "F",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-21",
+      "difficulty": "hard",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-22",
+      "difficulty": "hard",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "P"
+    },
+    {
+      "task": "bw-23",
+      "difficulty": "hard",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-24",
+      "difficulty": "hard",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-25",
+      "difficulty": "hard",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-26",
+      "difficulty": "hard",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-27",
+      "difficulty": "hard",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-28",
+      "difficulty": "hard",
+      "claude_haiku": "P",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-29",
+      "difficulty": "hard",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "P",
+      "openai_gpt-4o-mini": "F"
+    },
+    {
+      "task": "bw-30",
+      "difficulty": "hard",
+      "claude_haiku": "F",
+      "claude_opus": "P",
+      "claude_sonnet": "P",
+      "openai_gpt-4o": "F",
+      "openai_gpt-4o-mini": "F"
+    }
+  ]
+}
