@@ -39,7 +39,7 @@ per-task pass/fail outcomes, `analyze.py` computes:
 - **marginal failure rate** $p_i$ for each model;
 - **joint failure rate** $q(i,j)$ for every pair, i.e. the fraction of tasks
   on which *both* models fail;
-- the ratio $q / \min(p_i, p_j)$, which quantifies how concentrated the
+- the ratio $q /\!\min(p_i, p_j)$, which quantifies how concentrated the
   overlap is on the weaker component;
 - the pair-reliability $R_\text{pair} = 1 - q$, i.e. the probability that at
   least one model in the pair produces a correct plan;
