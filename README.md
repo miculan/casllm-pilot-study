@@ -1,4 +1,4 @@
-# CASeLLM Pilot Study — Blocksworld Planning with LLMs
+# CASLLM Pilot Study — Blocksworld Planning with LLMs
 
 Empirical companion to the paper *Reliable Decision Loops in Socio-Technical
 Collective Adaptive Systems* (M. Miculan). This repository contains the code,
@@ -185,7 +185,25 @@ matrix in [`results/per_task.csv`](results/per_task.csv).
 ## Citation
 
 If you use this benchmark or the analysis scripts, please cite the
-accompanying paper (forthcoming).
+accompanying paper:
+
+> M. Miculan. *Reliable Decision Loops in Socio-Technical Collective Adaptive
+> Systems*. In: Rigorous Engineering of Collective Adaptive Systems (REoCAS),
+> ISoLA 2026. Lecture Notes in Computer Science, Springer. To appear.
+
+```bibtex
+@inproceedings{Miculan2026DecisionLoops,
+  author    = {Miculan, Marino},
+  title     = {Reliable Decision Loops in Socio-Technical Collective Adaptive Systems},
+  booktitle = {Leveraging Applications of Formal Methods, Verification and
+               Validation (ISoLA 2026), Rigorous Engineering of Collective
+               Adaptive Systems track},
+  series    = {Lecture Notes in Computer Science},
+  publisher = {Springer},
+  year      = {2026},
+  note      = {To appear}
+}
+```
 
 ## License
 
