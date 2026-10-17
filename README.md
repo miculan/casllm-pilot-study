@@ -1,7 +1,9 @@
 # CASLLM Pilot Study — Blocksworld Planning with LLMs
 
 Empirical companion to the paper *Reliable Decision Loops in Socio-Technical
-Collective Adaptive Systems* (M. Miculan). This repository contains the code,
+Collective Adaptive Systems* (M. Miculan), published in LNCS vol. 17141
+(ISoLA 2026), open access:
+<https://doi.org/10.1007/978-3-032-40108-3_5>. This repository contains the code,
 tasks, raw model responses, and aggregated results of a pilot study that
 measures **marginal and joint failure rates** of five state-of-the-art LLMs on
 a small Blocksworld planning benchmark.
@@ -188,20 +190,30 @@ If you use this benchmark or the analysis scripts, please cite the
 accompanying paper:
 
 > M. Miculan. *Reliable Decision Loops in Socio-Technical Collective Adaptive
-> Systems*. In: Rigorous Engineering of Collective Adaptive Systems (REoCAS),
-> ISoLA 2026. Lecture Notes in Computer Science, Springer. To appear.
+> Systems*. In: T. Margaria, B. Steffen (eds.), *Leveraging Applications of
+> Formal Methods, Verification and Validation. Rigorous Engineering of
+> Collective Adaptive Systems* (ISoLA 2026). Lecture Notes in Computer
+> Science, vol. 17141, pp. 71–88. Springer, Cham, 2027.
+> <https://doi.org/10.1007/978-3-032-40108-3_5>
+
+The paper is open access under a
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) licence.
 
 ```bibtex
-@inproceedings{Miculan2026DecisionLoops,
+@inproceedings{Miculan2027DecisionLoops,
   author    = {Miculan, Marino},
   title     = {Reliable Decision Loops in Socio-Technical Collective Adaptive Systems},
   booktitle = {Leveraging Applications of Formal Methods, Verification and
-               Validation (ISoLA 2026), Rigorous Engineering of Collective
-               Adaptive Systems track},
+               Validation. Rigorous Engineering of Collective Adaptive Systems
+               (ISoLA 2026)},
+  editor    = {Margaria, Tiziana and Steffen, Bernhard},
   series    = {Lecture Notes in Computer Science},
+  volume    = {17141},
+  pages     = {71--88},
   publisher = {Springer},
-  year      = {2026},
-  note      = {To appear}
+  address   = {Cham},
+  year      = {2027},
+  doi       = {10.1007/978-3-032-40108-3_5}
 }
 ```
 
